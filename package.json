@@ -10,7 +10,7 @@
     "prebuild": "npm install vite",
     "build": "vite build",
     "preview": "vite preview",
-    "start": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\"",
+    "start": "node server.js",
     "dev:frontend": "vite",
     "dev:backend": "node server.js",
     "dev": "concurrently \"npm run dev:frontend\" \"npm run dev:backend\""
